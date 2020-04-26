@@ -1,1 +1,14 @@
+############## OSX ##############
+
+# General
 .DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+._*
+
+############ Prepros ############
+
+# Config Prepros files to ignore
+prepros.config
+prepros-6.config
