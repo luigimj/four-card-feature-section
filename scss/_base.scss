@@ -21,6 +21,8 @@
   font-family: $font-family-base; // 2
   line-height: $line-height-base; // 3
   -webkit-text-size-adjust: 100%; // 4
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
