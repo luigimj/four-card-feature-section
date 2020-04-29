@@ -37,6 +37,10 @@
 
 .card__title {
   color: $card-title-color;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 1rem;
+  }
 }
 
 .card__text {
