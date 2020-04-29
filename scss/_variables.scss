@@ -1,0 +1,66 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+
+$very-dark-blue:            hsl(234, 12%, 34%);
+$grayish-blue:              hsl(229, 6%, 66%);
+$very-light-gray:           hsl(0, 0%, 98%);
+$red:                       hsl(0, 78%, 62%);
+$cyan:                      hsl(180, 62%, 55%);
+$orange:                    hsl(34, 97%, 64%);
+$blue:                      hsl(212, 86%, 64%);
+$white:                     hsl(0, 0%, 100%);
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                     $very-light-gray;
+$body-color:                  $grayish-blue;
+
+
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-bottom:     1rem;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-base:            sans-serif;
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+
+$font-weight-light:           200;
+$font-weight-normal:          400;
+$font-weight-bold:            700;
+
+$font-weight-base:            $font-weight-normal;
+
+$line-height-base:            1.5;
+
+$headings-font-weight:        $font-weight-bold;
+$headings-line-height:        1.15;
+$headings-margin-bottom:      .5rem;
+
+
+
+// Cards
+
+$card-max-width:              350px;
+$card-margin-bottom:          1.5625rem;
+$card-spacer-y:               1.25rem;
+$card-spacer-x:               1.25rem;
+$card-border-width:           4px;
+$card-border-radius:          .25rem;
+$card-text-font-size:         .9375rem;
+$card-text-margin-bottom:     2rem;
+$card-bg:                     $white;
+$card-color:                  $grayish-blue;
+$card-title-color:            $very-dark-blue;
